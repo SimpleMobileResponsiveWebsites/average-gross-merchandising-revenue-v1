@@ -23,11 +23,13 @@ pillow==9.5.0
 
 # Development and Debugging
 pytest==7.3.1
-
-# Explicitly set Python version compatibility
-# This is for documentation, not actual version pinning
-# Python: 3.10.x
-
-# Pinned for specific development environment
 wheel==0.40.0
 setuptools==67.7.2
+
+# Additional Streamlit Dependencies
+altair==5.3.0
+pyarrow==18.1.0
+protobuf==4.25.5
+
+# Explicitly set Python version compatibility
+# Python: 3.10.x
